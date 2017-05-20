@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="suber.MemberController">
+   <children>
+      <Label layoutX="164.0" layoutY="117.0" text="user name:" />
+      <Label layoutX="164.0" layoutY="177.0" text="pasword:" />
+      <TextField fx:id="username" alignment="CENTER" layoutX="263.0" layoutY="113.0" prefHeight="23.0" prefWidth="194.0" promptText="user name" />
+      <PasswordField fx:id="pword" alignment="CENTER" layoutX="263.0" layoutY="173.0" prefHeight="23.0" prefWidth="194.0" promptText="password" />
+      <Button layoutX="191.0" layoutY="296.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+      <Button layoutX="360.0" layoutY="296.0" mnemonicParsing="false" onAction="#Login" text="Log in" />
+      <Label layoutX="236.0" layoutY="45.0" text="MEMBER">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="loginOutput" layoutX="182.0" layoutY="236.0" prefHeight="15.0" prefWidth="237.0" />
+   </children>
+</AnchorPane>
